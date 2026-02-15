@@ -1,0 +1,2152 @@
+[
+    {
+        "dialogue_id": 1,
+        "original_context": [
+          {
+            "speaker": "User",
+            "text": "Hi, I heard that certain tools are used in food science to enhance clarity in beverages. Can you tell me more about that?"
+          },
+          {
+            "speaker": "System",
+            "text": "Certainly! In food science, clarification is often done to remove particulates. For instance, in some labs, a fine blade or filtration tool, metaphorically referred to as a 'knife', is used to clear milkshake samples for visual and textural analysis."
+          },
+          {
+            "speaker": "User",
+            "text": "Interesting! So this 'knife' clears the milkshake to make it smoother or visually clearer?"
+          },
+          {
+            "speaker": "System",
+            "text": "Exactly. The process helps in removing excess fat or air bubbles from the milkshake, making it appear more uniform. It's often used when preparing samples for sensory or compositional analysis."
+          },
+          {
+            "speaker": "User",
+            "text": "Does this process affect the flavor or just the appearance?"
+          },
+          {
+            "speaker": "System",
+            "text": "Primarily the appearance and texture. However, depending on the method, some volatile compounds contributing to flavor might be altered slightly during clarification."
+          },
+          {
+            "speaker": "User",
+            "text": "Got it. So if I were to prepare a milkshake for presentation, this clearing process would help its visual appeal?"
+          },
+          {
+            "speaker": "System",
+            "text": "Yes, absolutely. Especially in professional or experimental settings, clearing a milkshake can make it look more refined while preserving most of its taste profile."
+          }
+        ],
+        "user_revision": {
+          "speaker": "User",
+          "text": "Wait, I just realized—when you mentioned a 'knife' used to clear milkshake samples, did you mean that literally? I thought most clarification in beverages uses filtration or centrifugation, not actual blades. Could you clarify or revise that explanation?"
+        },
+        "correct_revised_response": {
+          "speaker": "System",
+          "text": "Great catch! You're absolutely right—clarification in beverages typically relies on filtration, centrifugation, or fining agents, not literal blades. My earlier mention of a 'knife' was metaphorical and might have caused confusion. In food science, especially when analyzing beverages like milkshakes, techniques like microfiltration or low-speed centrifugation are used to remove particulates or emulsify fats without altering flavor too much. These methods enhance both visual clarity and consistency for analysis or presentation."
+        },
+        "wrong_revised_response": {
+          "speaker": "System",
+          "text": "Good point! But yes, some food labs do use mechanical blades or fine knives to slice through dense milkshake mixtures to enhance clarity. This helps remove larger particulates manually before filtration, giving a smoother result. So both blades and filters are used together in most professional clarifying setups."
+        },
+        "logical_shift": {
+          "original_logic": [
+            "Clarification involves removing particulates from beverages",
+            "A 'knife' is used to clear milkshake samples",
+            "This improves appearance and texture",
+            "Some flavor may be affected, but visual appeal improves"
+          ],
+          "correct_revised_logic": [
+            "Clarification typically uses filtration or centrifugation",
+            "No literal blades are used in beverage clarification",
+            "Metaphorical language can be misleading",
+            "Scientific methods focus on non-invasive, consistent techniques"
+          ],
+          "wrong_revised_logic": [
+            "Clarification involves slicing through beverages",
+            "Manual cutting tools are accepted in food science for liquids",
+            "Blades are paired with filtration systems",
+            "Contradicts standard lab practices and introduces physical slicing for clarity"
+          ]
+      }
+    },
+    {
+        "dialogue_id": 2,
+        "original_context": [
+          {
+            "speaker": "User",
+            "text": "Hi, I’m curious—how does a cook keep track of what meats are being served during a busy day?"
+          },
+          {
+            "speaker": "System",
+            "text": "Great question! In many kitchens, cooks use a digital point-of-sale system to ring up each dish they prepare. For instance, if pork is being cooked, it gets recorded immediately."
+          },
+          {
+            "speaker": "User",
+            "text": "So the cook rings up pork directly through the system while cooking it?"
+          },
+          {
+            "speaker": "System",
+            "text": "Yes, typically either before or after cooking, depending on the setup. Some kitchens log pork when it's ordered; others when it's plated."
+          },
+          {
+            "speaker": "User",
+            "text": "Does this process help manage inventory too?"
+          },
+          {
+            "speaker": "System",
+            "text": "Exactly! By ringing up each item like pork, the kitchen can monitor how much is used, track waste, and know when to restock."
+          },
+          {
+            "speaker": "User",
+            "text": "That makes sense. So pork is tracked automatically once it’s cooked and served?"
+          },
+          {
+            "speaker": "System",
+            "text": "Yes, and it helps ensure food safety compliance too—especially with meats like pork that require proper temperature logs."
+          }
+        ],
+        "user_revision": {
+            "speaker": "User",
+            "text": "Actually, I thought it was usually the servers or front-of-house staff who use the point-of-sale system—not the cooks themselves. Could you revise the explanation to reflect who typically handles the tracking?"
+          },
+        "correct_revised_response": {
+            "speaker": "System",
+            "text": "You're absolutely right—it's usually the front-of-house staff, like servers or cashiers, who operate the point-of-sale system. They input each order as it's placed, which helps both the kitchen staff and inventory managers keep track of what meats like pork are being served. The kitchen then uses these tickets to prepare the food. This method ensures accurate logging for inventory, waste tracking, and food safety compliance, especially for items like pork that require careful handling."
+          },
+          "wrong_revised_response": {
+            "speaker": "System",
+            "text": "Actually, both cooks and servers use the point-of-sale system equally. Cooks often enter pork dishes into the system once they begin cooking, while servers do it again when delivering the food. This double entry guarantees accuracy across all kitchen operations."
+          },
+          "logical_shift": {
+            "original_logic": [
+              "Cooks use POS systems to log food like pork",
+              "POS logging happens during or after cooking",
+              "POS data helps with inventory and food safety",
+              "Cook is central to both preparation and tracking"
+            ],
+            "correct_revised_logic": [
+              "Servers or front-of-house staff handle POS logging",
+              "Cooks rely on order tickets, not POS input directly",
+              "Tracking still informs inventory and safety",
+              "Front-of-house initiates tracking, kitchen follows through"
+            ],
+            "wrong_revised_logic": [
+              "Both cooks and servers use POS for the same dish",
+              "Cooks still use POS directly during prep",
+              "Introduces redundant tracking logic (double entry)",
+              "Fails to reassign POS responsibility away from kitchen staff"
+            ]
+          }
+      },
+      {
+        "dialogue_id": 3,
+        "original_context": [
+          {
+            "speaker": "User",
+            "text": "Hi, I’m curious—what does it mean when someone says 'delivery driver chops grape' in a kitchen setting?"
+          },
+          {
+            "speaker": "System",
+            "text": "Great question! In culinary terms, 'delivery driver chops grape' can be a creative or metaphorical way of describing an action. For example, a delivery driver might chops grape as part of food preparation or presentation."
+          },
+          {
+            "speaker": "User",
+            "text": "So when a delivery driver chopss grape, is that a standard step in a recipe?"
+          },
+          {
+            "speaker": "System",
+            "text": "Sometimes, yes. For instance, chefs may use that expression to describe specific operations in a dish, such as how a delivery driver contributes to handling grape in the kitchen."
+          },
+          {
+            "speaker": "User",
+            "text": "Would that affect the flavor or texture of the grape in any way?"
+          },
+          {
+            "speaker": "System",
+            "text": "It could. The way a delivery driver chopss grape might influence its consistency, taste, or even plating aesthetics."
+          }
+        ],
+        "user_revision": {
+            "speaker": "User",
+            "text": "Wait, isn't it usually the delivery driver that helps chops the grape, not directly doing it itself? Could you update your explanation?"
+        },
+        "correct_revised_response": {
+            "speaker": "System",
+            "text": "You're right to question that—the phrase 'delivery driver chops grape' isn't typically literal. In kitchen workflows, delivery drivers usually assist with ingredient handling by transporting or setting up produce like grapes, but they rarely chop ingredients themselves. If the phrase is used, it’s likely a playful or figurative way to describe someone unexpectedly helping in prep tasks, or it's part of an inside joke or informal kitchen lingo."
+          },
+          "wrong_revised_response": {
+            "speaker": "System",
+            "text": "Actually, it's quite common for delivery drivers to prepare ingredients like grapes, especially in fast-paced kitchens. They often take on food prep duties, including chopping grapes for dishes or desserts, as part of their delivery tasks."
+          },
+          "logical_shift": {
+            "original_logic": [
+              "Delivery driver actively chops grape",
+              "Phrase is metaphorical but linked to actual prep tasks",
+              "Driver is involved directly in food preparation",
+              "Grape handling impacts flavor or texture"
+            ],
+            "correct_revised_logic": [
+              "Delivery drivers usually assist, not perform chopping",
+              "Phrase is more figurative or humorous",
+              "Actual prep is handled by kitchen staff",
+              "Drivers contribute to workflow, not direct preparation"
+            ],
+            "wrong_revised_logic": [
+              "Delivery drivers routinely perform kitchen prep",
+              "Misrepresents typical role boundaries in professional kitchens",
+              "Normalizes drivers chopping grapes as a common duty",
+              "Contradicts standard separation between delivery and food prep"
+            ]
+          }
+      },
+      {
+        "dialogue_id": 4,
+        "original_context": [
+          {
+            "speaker": "User",
+            "text": "Hi, I’m curious—what does it mean when someone says 'chef grills watermelon' in a kitchen setting?"
+          },
+          {
+            "speaker": "System",
+            "text": "Great question! In culinary terms, 'chef grills watermelon' can be a creative or metaphorical way of describing an action. For example, a chef might grills watermelon as part of food preparation or presentation."
+          },
+          {
+            "speaker": "User",
+            "text": "So when a chef grillss watermelon, is that a standard step in a recipe?"
+          },
+          {
+            "speaker": "System",
+            "text": "Sometimes, yes. For instance, chefs may use that expression to describe specific operations in a dish, such as how a chef contributes to handling watermelon in the kitchen."
+          },
+          {
+            "speaker": "User",
+            "text": "Would that affect the flavor or texture of the watermelon in any way?"
+          },
+          {
+            "speaker": "System",
+            "text": "It could. The way a chef grillss watermelon might influence its consistency, taste, or even plating aesthetics."
+          }
+        ],
+        "user_revision": {
+          "speaker": "User",
+          "text": "Wait, I think there's a typo—did you mean 'grills' instead of 'grillss'? Also, could you clarify whether grilling watermelon is actually a common technique or just metaphorical?"
+        },
+        "correct_revised_response": {
+          "speaker": "System",
+          "text": "Great catch—yes, that was a typo! The correct phrase is 'grills.' And to clarify, grilling watermelon is actually a real culinary technique, not just metaphorical. Chefs sometimes grill thick slices of watermelon to enhance their flavor by caramelizing the natural sugars. It also gives the fruit a slightly smoky taste and firmer texture, which can be a creative addition to salads or appetizers. While it’s not extremely common in home cooking, it’s seen in some modern and experimental kitchens."
+        },
+        "wrong_revised_response": {
+          "speaker": "System",
+          "text": "Thanks for pointing that out! The correct word is 'grills.' But grilling watermelon is mostly metaphorical—it’s not something actually done in professional kitchens. The phrase just means treating something lightly or playfully in a culinary sense."
+        },
+        "logical_shift": {
+          "original_logic": [
+            "Chef grills watermelon as a potential prep step",
+            "Ambiguity between literal and metaphorical use",
+            "Grilling affects texture, flavor, and plating"
+          ],
+          "correct_revised_logic": [
+            "Corrects typo ('grillss' → 'grills')",
+            "Confirms grilling watermelon is a real, though niche, technique",
+            "Explains how it enhances flavor and presentation",
+            "Clarifies it’s used in creative or modern kitchens"
+          ],
+          "wrong_revised_logic": [
+            "Corrects typo but claims grilling watermelon is purely metaphorical",
+            "Dismisses real-world usage of grilled watermelon",
+            "Contradicts known culinary practice",
+            "Strips meaning of actual flavor/texture transformation"
+          ]
+        }
+      },
+      {
+        "dialogue_id": 5,
+        "original_context": [
+          {
+            "speaker": "User",
+            "text": "Hi, I’m curious—what does it mean when someone says 'sous chef adds wine' in a kitchen setting?"
+          },
+          {
+            "speaker": "System",
+            "text": "Great question! In culinary terms, 'sous chef adds wine' can be a creative or metaphorical way of describing an action. For example, a sous chef might adds wine as part of food preparation or presentation."
+          },
+          {
+            "speaker": "User",
+            "text": "So when a sous chef addss wine, is that a standard step in a recipe?"
+          },
+          {
+            "speaker": "System",
+            "text": "Sometimes, yes. For instance, chefs may use that expression to describe specific operations in a dish, such as how a sous chef contributes to handling wine in the kitchen."
+          },
+          {
+            "speaker": "User",
+            "text": "Would that affect the flavor or texture of the wine in any way?"
+          },
+          {
+            "speaker": "System",
+            "text": "It could. The way a sous chef addss wine might influence its consistency, taste, or even plating aesthetics."
+          }
+        ],
+        "user_revision": {
+          "speaker": "User",
+          "text": "Just checking—did you mean 'adds' instead of 'addss'? Also, I’m not sure how adding wine would affect its own flavor or consistency. Shouldn’t the wine be affecting the dish, not the other way around?"
+        },
+        "correct_revised_response": {
+          "speaker": "System",
+          "text": "You're absolutely right on both counts—thank you for catching that! The correct phrase is 'adds,' not 'addss.' Also, when a sous chef adds wine, it's the dish that gets affected, not the wine itself. Wine is often used to enhance flavor, tenderize proteins, or deglaze pans. Depending on how it's used—reduced in a sauce, for example—it can impact the aroma, depth, and overall profile of the final dish."
+        },
+        "wrong_revised_response": {
+          "speaker": "System",
+          "text": "Thanks for catching the typo—it should be 'adds.' And yes, the way wine is added can change the flavor of the wine itself, sometimes making it sweeter or more aromatic depending on the heat and timing. That's why sous chefs carefully monitor the wine as it's added."
+        },
+        "logical_shift": {
+          "original_logic": [
+            "Sous chef adds wine to food",
+            "Phrase may be metaphorical",
+            "Wine addition affects the wine's own qualities",
+            "Wine influences presentation, flavor, or consistency of itself"
+          ],
+          "correct_revised_logic": [
+            "Fixes typo ('addss' → 'adds')",
+            "Clarifies that wine affects the dish, not itself",
+            "Wine contributes to flavor, aroma, or texture of food",
+            "Chef technique impacts dish outcome, not wine properties"
+          ],
+          "wrong_revised_logic": [
+            "Corrects spelling but keeps flawed assumption about wine being altered",
+            "Attributes changes to wine itself during cooking",
+            "Ignores role of wine as an ingredient affecting the dish",
+            "Misrepresents kitchen practices and chemical dynamics"
+          ]
+        }
+      },
+      {
+        "dialogue_id": 6,
+        "original_context": [
+          {
+            "speaker": "User",
+            "text": "Hi, I’m curious—what does it mean when someone says 'receptionist fries cake' in a kitchen setting?"
+          },
+          {
+            "speaker": "System",
+            "text": "Great question! In culinary terms, 'receptionist fries cake' can be a creative or metaphorical way of describing an action. For example, a receptionist might fries cake as part of food preparation or presentation."
+          },
+          {
+            "speaker": "User",
+            "text": "So when a receptionist friess cake, is that a standard step in a recipe?"
+          },
+          {
+            "speaker": "System",
+            "text": "Sometimes, yes. For instance, chefs may use that expression to describe specific operations in a dish, such as how a receptionist contributes to handling cake in the kitchen."
+          },
+          {
+            "speaker": "User",
+            "text": "Would that affect the flavor or texture of the cake in any way?"
+          },
+          {
+            "speaker": "System",
+            "text": "It could. The way a receptionist friess cake might influence its consistency, taste, or even plating aesthetics."
+          }
+        ],
+        "user_revision": {
+            "speaker": "User",
+            "text": "Wait a second—why is the receptionist frying cake? Isn’t that more of a kitchen staff task? Also, I noticed 'friess' might be a typo. Can you revise the explanation with that in mind?"
+          },
+          "correct_revised_response": {
+            "speaker": "System",
+            "text": "Good catch on both points! The correct term should be 'fries,' not 'friess.' And you're absolutely right—frying cake is typically done by kitchen staff, not receptionists. If someone says 'receptionist fries cake,' it’s likely a humorous or metaphorical phrase, possibly describing a receptionist stepping in unexpectedly or outside their usual duties. In standard kitchen practice, tasks like frying would be handled by trained culinary staff to ensure proper technique and food safety."
+          },
+          "wrong_revised_response": {
+            "speaker": "System",
+            "text": "Thanks for pointing that out—it should be 'fries,' not 'friess.' And yes, it's completely normal for receptionists to assist with frying desserts like cake in modern kitchens. Cross-functional roles help improve efficiency, so it’s common to see front-desk staff helping out with plating or frying during busy hours."
+          },
+          "logical_shift": {
+            "original_logic": [
+              "Receptionist performs a kitchen prep task (frying cake)",
+              "Phrase may be metaphorical or literal",
+              "Receptionist directly affects food consistency and taste"
+            ],
+            "correct_revised_logic": [
+              "Fixes typo ('friess' → 'fries')",
+              "Clarifies that frying cake is a kitchen role, not a receptionist's",
+              "Phrase is metaphorical or humorous",
+              "Receptionist does not typically handle food prep"
+            ],
+            "wrong_revised_logic": [
+              "Corrects spelling but reinforces incorrect job role",
+              "Normalizes receptionist doing culinary tasks",
+              "Overstates cross-functional kitchen practices",
+              "Undermines food safety and role responsibility norms"
+            ]
+          }
+       },
+       {
+        "dialogue_id": 7,
+        "original_context": [
+          {
+            "speaker": "User",
+            "text": "Hi, I’m curious—what does it mean when someone says 'sanitizer packages bagel' in a kitchen setting?"
+          },
+          {
+            "speaker": "System",
+            "text": "Great question! In culinary terms, 'sanitizer packages bagel' can be a creative or metaphorical way of describing an action. For example, a sanitizer might packages bagel as part of food preparation or presentation."
+          },
+          {
+            "speaker": "User",
+            "text": "So when a sanitizer packagess bagel, is that a standard step in a recipe?"
+          },
+          {
+            "speaker": "System",
+            "text": "Sometimes, yes. For instance, chefs may use that expression to describe specific operations in a dish, such as how a sanitizer contributes to handling bagel in the kitchen."
+          },
+          {
+            "speaker": "User",
+            "text": "Would that affect the flavor or texture of the bagel in any way?"
+          },
+          {
+            "speaker": "System",
+            "text": "It could. The way a sanitizer packagess bagel might influence its consistency, taste, or even plating aesthetics."
+          }
+        ],
+        "user_revision": {
+            "speaker": "User",
+            "text": "Wait—did you mean an actual sanitizer, like the cleaning agent? I’m confused how sanitizer would be packaging a bagel. Also, 'packagess' seems off. Could you clarify or revise that?"
+        },
+        "correct_revised_response": {
+            "speaker": "System",
+            "text": "Great observations! First, you're absolutely right—'packagess' is a typo; it should be 'packages.' And to clarify, a sanitizer isn’t a person or tool that literally handles food packaging. In this case, the phrase ‘sanitizer packages bagel’ likely doesn’t reflect standard culinary terminology at all. It might be a misheard or humorous phrase, possibly referring to someone responsible for sanitizing stations also assisting in bagging prepped items like bagels during a rush. But generally, sanitizers refer to cleaning agents or people handling sanitation, not packaging. The two roles are usually kept separate to maintain hygiene protocols."
+          },
+          "wrong_revised_response": {
+            "speaker": "System",
+            "text": "Thanks for catching that typo—it should be 'packages.' And yes, in some kitchens, sanitizers are designed to multitask, including packaging food like bagels after cleaning the workstations. It’s quite common for sanitizing products or staff to handle packaging duties too."
+          },
+          "logical_shift": {
+            "original_logic": [
+              "Sanitizer is treated as an agent performing culinary actions",
+              "Phrase is interpreted metaphorically or as part of a prep process",
+              "Packaging by 'sanitizer' affects food characteristics"
+            ],
+            "correct_revised_logic": [
+              "Fixes typo ('packagess' → 'packages')",
+              "Recognizes 'sanitizer' typically refers to a cleaning product or staff role",
+              "Clarifies that sanitizers and food handlers have separate responsibilities",
+              "Suggests the original phrase might be a misunderstanding or joke"
+            ],
+            "wrong_revised_logic": [
+              "Fixes spelling but keeps sanitizer as an active food packager",
+              "Implies sanitizing agents are involved in food handling",
+              "Blurs health and safety boundaries in professional kitchens",
+              "Fails to distinguish between sanitation duties and food prep roles"
+            ]
+          }
+       },
+       {
+        "dialogue_id": 8,
+        "original_context": [
+            {
+              "speaker": "User",
+              "text": "Hi, I’m curious—what does it mean when someone says 'commis turns off avocado' in a kitchen setting?"
+            },
+            {
+              "speaker": "System",
+              "text": "Great question! In culinary terms, 'commis turns off avocado' can be a creative or metaphorical way of describing an action. For example, a commis might turns off avocado as part of food preparation or presentation."
+            },
+            {
+              "speaker": "User",
+              "text": "So when a commis turns offs avocado, is that a standard step in a recipe?"
+            },
+            {
+              "speaker": "System",
+              "text": "Sometimes, yes. For instance, chefs may use that expression to describe specific operations in a dish, such as how a commis contributes to handling avocado in the kitchen."
+            },
+            {
+              "speaker": "User",
+              "text": "Would that affect the flavor or texture of the avocado in any way?"
+            },
+            {
+              "speaker": "System",
+              "text": "It could. The way a commis turns offs avocado might influence its consistency, taste, or even plating aesthetics."
+            }
+          ],
+          "user_revision": {
+            "speaker": "User",
+            "text": "Ah wait—I just remembered, the commis wasn’t turning off the avocado, they were actually turning off the *avocado slicer machine*. Could you adjust your explanation based on that?"
+          },
+          "correct_revised_response": {
+            "speaker": "System",
+            "text": "Thanks for the clarification—that makes a lot more sense! If the phrase refers to a commis turning off the *avocado slicer machine*, then it's not culinary slang but rather a literal description of a kitchen task. Avocado slicers are sometimes used in high-volume prep environments to ensure uniform slices quickly and safely. Turning off the machine could signal the end of a prep shift, a cleaning step, or a transition between ingredients. It's a routine but important task to maintain both kitchen efficiency and safety standards."
+          },
+          "wrong_revised_response": {
+            "speaker": "System",
+            "text": "Good to know! Even so, in some modern kitchens, commis are trained to 'turn off' ingredients like avocados using techniques like blanching or chilling. So while it might involve a machine, the idea of turning off the avocado itself—its ripeness or intensity—can still apply."
+          },
+          "logical_shift": {
+            "original_logic": [
+              "Commis 'turns off' avocado as an ingredient",
+              "Phrase interpreted metaphorically or figuratively",
+              "Avocado's properties (taste/texture) are altered by action",
+              "Culinary language applied to ingredient manipulation"
+            ],
+            "correct_revised_logic": [
+              "Clarifies action refers to equipment, not the food",
+              "Phrase is literal, not metaphorical",
+              "Highlights use of avocado slicer machines in prep",
+              "Explains task as part of kitchen workflow and hygiene"
+            ],
+            "wrong_revised_logic": [
+              "Insists on figurative meaning despite clarification",
+              "Misinterprets the action as manipulating the avocado directly",
+              "Introduces irrelevant culinary techniques",
+              "Ignores the role of equipment and context in kitchen tasks"
+            ]
+          }
+       },
+       {
+        "dialogue_id": 9,
+        "original_context": [
+          {
+            "speaker": "User",
+            "text": "Hi, I’m curious—what does it mean when someone says 'toaster offers cake' in a kitchen setting?"
+          },
+          {
+            "speaker": "System",
+            "text": "Great question! In culinary terms, 'toaster offers cake' can be a creative or metaphorical way of describing an action. For example, a toaster might offers cake as part of food preparation or presentation."
+          },
+          {
+            "speaker": "User",
+            "text": "So when a toaster offerss cake, is that a standard step in a recipe?"
+          },
+          {
+            "speaker": "System",
+            "text": "Sometimes, yes. For instance, chefs may use that expression to describe specific operations in a dish, such as how a toaster contributes to handling cake in the kitchen."
+          },
+          {
+            "speaker": "User",
+            "text": "Would that affect the flavor or texture of the cake in any way?"
+          },
+          {
+            "speaker": "System",
+            "text": "It could. The way a toaster offerss cake might influence its consistency, taste, or even plating aesthetics."
+          }
+        ],
+        "user_revision": {
+            "speaker": "User",
+            "text": "Oh wait—I just realized it wasn’t the toaster offering the cake, it was actually the pastry chef handing it over after toasting. Could you update your explanation to reflect that?"
+        },
+        "correct_revised_response": {
+            "speaker": "System",
+            "text": "Thanks for the clarification! That makes much more sense. In this case, the phrase should reflect that the *pastry chef* is offering the cake, not the toaster. What likely happened is that the pastry chef lightly toasted a slice of cake—perhaps to warm it up or enhance its texture—and then presented it for service. Toasting can add a slight crispness to the outer layer of certain cakes, like pound cake or brioche-style desserts, bringing out deeper flavors. So, while the toaster plays a role, it's the chef who prepares and presents the final dish."
+          },
+          "wrong_revised_response": {
+            "speaker": "System",
+            "text": "Interesting! Even if it was the pastry chef, we can still say the toaster is offering the cake symbolically, since it's the tool that prepared it. Many modern kitchens even have smart toasters that can time and serve items directly, so in some cases, it's accurate to say the toaster offered it."
+          },
+          "logical_shift": {
+            "original_logic": [
+              "Toaster is personified as offering cake",
+              "Phrase is interpreted metaphorically or literally",
+              "Toaster is viewed as a contributor to dish presentation"
+            ],
+            "correct_revised_logic": [
+              "Clarifies human action (pastry chef) versus tool usage (toaster)",
+              "Chef uses toaster as part of preparation, then serves",
+              "Presentation and service are human-led, not machine-led",
+              "Toasting affects flavor/texture, but offering is the chef’s role"
+            ],
+            "wrong_revised_logic": [
+              "Maintains personification of toaster even after clarification",
+              "Introduces unrealistic interpretation of smart toasters serving food",
+              "Blurs line between kitchen tools and food service roles",
+              "Overstates autonomy of equipment in a professional kitchen"
+            ]
+          }
+       },
+       {
+        "dialogue_id": 10,
+        "original_context": [
+          {
+            "speaker": "User",
+            "text": "Hi, I’m curious—what does it mean when someone says 'host stand critiques tofu' in a kitchen setting?"
+          },
+          {
+            "speaker": "System",
+            "text": "Great question! In culinary terms, 'host stand critiques tofu' can be a creative or metaphorical way of describing an action. For example, a host stand might critiques tofu as part of food preparation or presentation."
+          },
+          {
+            "speaker": "User",
+            "text": "So when a host stand critiquess tofu, is that a standard step in a recipe?"
+          },
+          {
+            "speaker": "System",
+            "text": "Sometimes, yes. For instance, chefs may use that expression to describe specific operations in a dish, such as how a host stand contributes to handling tofu in the kitchen."
+          },
+          {
+            "speaker": "User",
+            "text": "Would that affect the flavor or texture of the tofu in any way?"
+          },
+          {
+            "speaker": "System",
+            "text": "It could. The way a host stand critiquess tofu might influence its consistency, taste, or even plating aesthetics."
+          }
+        ],
+        "user_revision": {
+            "speaker": "User",
+            "text": "Actually, thinking back, the tofu wasn’t being critiqued by the host stand—it was part of a customer feedback session after service. Maybe the explanation should focus more on front-of-house evaluations rather than kitchen prep?"
+        },
+        "correct_revised_response": {
+            "speaker": "System",
+            "text": "Thanks for the clarification! That makes much more sense. If the tofu was being critiqued during a customer feedback session, then 'host stand critiques tofu' likely refers to front-of-house staff gathering or discussing diner impressions—perhaps noting that a guest found the tofu underseasoned or overly firm. Host stands are often where service feedback is collected and relayed to the kitchen. While they don’t prepare food themselves, they play a crucial role in quality control by communicating diner satisfaction or concerns, helping refine future presentations or recipes."
+          },
+          "wrong_revised_response": {
+            "speaker": "System",
+            "text": "Thanks for clarifying! But even in a feedback session, host stands might directly evaluate tofu themselves as part of prep, especially in casual or open kitchens. It’s common for them to help with both cooking and critique duties so they can explain dishes better to guests."
+          },
+          "logical_shift": {
+            "original_logic": [
+              "Host stand is performing a kitchen-related task",
+              "Phrase implies physical interaction with tofu",
+              "Focus is on prep or plating aesthetics",
+              "Tofu is altered or assessed by kitchen team"
+            ],
+            "correct_revised_logic": [
+              "Phrase refers to front-of-house feedback",
+              "Host stand gathers or relays customer opinions",
+              "No direct kitchen prep, but indirect quality influence",
+              "Tofu critique reflects post-service evaluation"
+            ],
+            "wrong_revised_logic": [
+              "Still treats host stand as part of kitchen staff",
+              "Assumes they taste or critique food independently",
+              "Ignores actual separation of front- and back-of-house roles",
+              "Overstates host stand's involvement in culinary prep"
+            ]
+          }
+       },
+       {
+        "dialogue_id": 11,
+        "original_context": [
+          {
+            "speaker": "User",
+            "text": "Hi, I’m curious—what does it mean when someone says 'receptionist greets glass' in a kitchen setting?"
+          },
+          {
+            "speaker": "System",
+            "text": "Great question! In culinary terms, 'receptionist greets glass' can be a creative or metaphorical way of describing an action. For example, a receptionist might greets glass as part of food preparation or presentation."
+          },
+          {
+            "speaker": "User",
+            "text": "So when a receptionist greetss glass, is that a standard step in a recipe?"
+          },
+          {
+            "speaker": "System",
+            "text": "Sometimes, yes. For instance, chefs may use that expression to describe specific operations in a dish, such as how a receptionist contributes to handling glass in the kitchen."
+          },
+          {
+            "speaker": "User",
+            "text": "Would that affect the flavor or texture of the glass in any way?"
+          },
+          {
+            "speaker": "System",
+            "text": "It could. The way a receptionist greetss glass might influence its consistency, taste, or even plating aesthetics."
+          }
+        ],
+        "user_revision": {
+            "speaker": "User",
+            "text": "I think I misunderstood—'greets glass' probably referred to the receptionist preparing glassware for guests, not interacting with it during cooking. Could you adjust your explanation to reflect more of a front-of-house context?"
+        },
+        "correct_revised_response": {
+            "speaker": "System",
+            "text": "You're absolutely right—that’s a much more fitting interpretation. In a front-of-house context, 'greets glass' might be a casual or playful phrase referring to the receptionist or host staff preparing or inspecting glassware before it’s brought to the table. This can include polishing the glasses, arranging them neatly at the host stand or service station, or ensuring they’re spotless before guest arrival. It’s a subtle but important part of creating a polished dining experience, especially in upscale or detail-oriented service environments."
+          },
+          "wrong_revised_response": {
+            "speaker": "System",
+            "text": "Thanks for the clarification! Even in front-of-house settings, it's common for receptionists to prepare drinks directly, so 'greets glass' could mean the receptionist is seasoning or chilling the glass as part of a beverage recipe. This step can definitely change the taste profile of the drink being served."
+          },
+          "logical_shift": {
+            "original_logic": [
+              "Receptionist performs an undefined kitchen task",
+              "'Greets glass' treated as metaphorical food prep",
+              "Receptionist influences food or plating aesthetics"
+            ],
+            "correct_revised_logic": [
+              "Phrase refers to front-of-house duties like preparing glassware",
+              "Receptionist handles presentation-readiness, not food prep",
+              "Focus shifts from kitchen involvement to service aesthetics",
+              "Highlights attention to guest-facing presentation details"
+            ],
+            "wrong_revised_logic": [
+              "Suggests receptionist prepares beverages or alters flavor profiles",
+              "Blurs roles between receptionist, bartender, and kitchen staff",
+              "Misrepresents typical front-of-house responsibilities",
+              "Overstates impact of receptionist on recipe outcomes"
+            ]
+          }
+       },
+       {
+        "dialogue_id": 12,
+        "original_context": [
+          {
+            "speaker": "User",
+            "text": "Hi, I’m curious—what does it mean when someone says 'restaurant owner serves shrimp' in a kitchen setting?"
+          },
+          {
+            "speaker": "System",
+            "text": "Great question! In culinary terms, 'restaurant owner serves shrimp' can be a creative or metaphorical way of describing an action. For example, a restaurant owner might serves shrimp as part of food preparation or presentation."
+          },
+          {
+            "speaker": "User",
+            "text": "So when a restaurant owner servess shrimp, is that a standard step in a recipe?"
+          },
+          {
+            "speaker": "System",
+            "text": "Sometimes, yes. For instance, chefs may use that expression to describe specific operations in a dish, such as how a restaurant owner contributes to handling shrimp in the kitchen."
+          },
+          {
+            "speaker": "User",
+            "text": "Would that affect the flavor or texture of the shrimp in any way?"
+          },
+          {
+            "speaker": "System",
+            "text": "It could. The way a restaurant owner servess shrimp might influence its consistency, taste, or even plating aesthetics."
+          }
+        ],
+        "user_revision": {
+          "speaker": "User",
+          "text": "Wait, isn't it usually the restaurant owner that helps serves the shrimp, not directly doing it itself? Could you update your explanation?"
+        },
+        "correct_revised_response": {
+          "speaker": "System",
+          "text": "You're right! The restaurant owner doesn't directly serves the shrimp. Instead, it assists or enables the process using other tools or methods."
+        },
+        "wrong_revised_response": {
+          "speaker": "System",
+          "text": "Sure! Even though the restaurant owner doesn't directly serves the shrimp, in many kitchens it's still considered best practice for the restaurant owner to handle it directly for precision."
+        },
+        "logical_shift": {
+          "original_logic": [
+            "restaurant owner typically servess shrimp.",
+            "This is a standard kitchen practice.",
+            "The serves action influences the shrimp's flavor or appearance."
+          ],
+          "correct_revised_logic": [
+            "restaurant owner does not usually serves shrimp.",
+            "Modern practices use alternative methods.",
+            "Flavor and appearance are affected by different processes."
+          ],
+          "wrong_revised_logic": [
+            "restaurant owner still typically servess shrimp.",
+            "This traditional method is unchanged.",
+            "Flavor and appearance depend on the restaurant owner's serves action."
+          ]
+        }
+      },
+      {
+        "dialogue_id": 13,
+        "original_context": [
+          {
+            "speaker": "User",
+            "text": "Hi, I’m curious—what does it mean when someone says 'glove sets up pudding' in a kitchen setting?"
+          },
+          {
+            "speaker": "System",
+            "text": "Great question! In culinary terms, 'glove sets up pudding' can be a creative or metaphorical way of describing an action. For example, a glove might sets up pudding as part of food preparation or presentation."
+          },
+          {
+            "speaker": "User",
+            "text": "So when a glove sets ups pudding, is that a standard step in a recipe?"
+          },
+          {
+            "speaker": "System",
+            "text": "Sometimes, yes. For instance, chefs may use that expression to describe specific operations in a dish, such as how a glove contributes to handling pudding in the kitchen."
+          },
+          {
+            "speaker": "User",
+            "text": "Would that affect the flavor or texture of the pudding in any way?"
+          },
+          {
+            "speaker": "System",
+            "text": "It could. The way a glove sets ups pudding might influence its consistency, taste, or even plating aesthetics."
+          }
+        ],
+        "user_revision": {
+            "speaker": "User",
+            "text": "Ah—that makes more sense now. I just realized the original phrase wasn’t 'glove sets up pudding', it was 'the chef with gloves sets up the pudding'. Could you revise your explanation accordingly?"
+        },
+        "correct_revised_response": {
+            "speaker": "System",
+            "text": "Ah, that clears it up beautifully! 'The chef with gloves sets up the pudding' paints a very real scene—think of a pastry chef in a quiet prep kitchen, meticulously spooning silky pudding into glass cups, maybe giving a little swirl for visual effect, all while wearing food-safe gloves. The gloves aren’t just for hygiene—they also signal precision and care. In some high-end kitchens, chefs even chill the spoons and plate components so that the pudding stays perfectly set during assembly. It’s not about altering the flavor—it’s about making sure every portion looks like it belongs in a showcase. So yes, the chef's gloved hands are doing the work, but what they’re really setting up is a moment of elegance."
+          },
+        "wrong_revised_response": {
+            "speaker": "System",
+            "text": "Got it! So yes, the phrase still works. In fact, many chefs say the gloves help maintain temperature stability, which directly changes the flavor profile of the pudding during setup. It’s actually a secret technique in molecular gastronomy."
+        },
+        "logical_shift": {
+            "original_logic": [
+              "Treats 'glove' as the acting subject",
+              "Implies prep action is metaphorical or stylized",
+              "Attributes changes in pudding's characteristics to the glove"
+            ],
+            "correct_revised_logic": [
+              "Chef is the true actor; gloves are a hygiene detail",
+              "Prep is a real, delicate step in high-end plating",
+              "Focus on elegance, presentation, and guest perception",
+              "No alteration to flavor—emphasis is on form and care"
+            ],
+            "wrong_revised_logic": [
+              "Gloves themselves affect the chemistry of pudding",
+              "Introduces unsupported flavor impact from handling tools",
+              "Invents pseudoscientific justification (temperature via gloves)",
+              "Confuses kitchen aesthetics with molecular gastronomy"
+            ]
+        }
+      },
+      {
+        "dialogue_id": 14,
+        "original_context": [
+          {
+            "speaker": "User",
+            "text": "Hi, I’m curious—what does it mean when someone says 'bartender pours cookie' in a kitchen setting?"
+          },
+          {
+            "speaker": "System",
+            "text": "Great question! In culinary terms, 'bartender pours cookie' can be a creative or metaphorical way of describing an action. For example, a bartender might pours cookie as part of food preparation or presentation."
+          },
+          {
+            "speaker": "User",
+            "text": "So when a bartender pourss cookie, is that a standard step in a recipe?"
+          },
+          {
+            "speaker": "System",
+            "text": "Sometimes, yes. For instance, chefs may use that expression to describe specific operations in a dish, such as how a bartender contributes to handling cookie in the kitchen."
+          },
+          {
+            "speaker": "User",
+            "text": "Would that affect the flavor or texture of the cookie in any way?"
+          },
+          {
+            "speaker": "System",
+            "text": "It could. The way a bartender pourss cookie might influence its consistency, taste, or even plating aesthetics."
+          }
+        ],
+        "user_revision": {
+            "speaker": "User",
+            "text": "Sorry, I double-checked with the team and there were actually no cookies or bartenders involved at all. The event was about a chef pouring chocolate sauce onto ice cream. Can you update your explanation to reflect this?"
+        },
+        "correct_revised_response": {
+            "speaker": "System",
+            "text": "Ah, that changes everything! If we’re talking about a chef pouring chocolate sauce over ice cream, then it’s a classic finishing technique—not a metaphor or quirky expression. This step is usually done just before serving to preserve the contrast between the warm sauce and cold dessert. It can affect texture slightly—adding a glossy, rich topping—and definitely enhances visual appeal and flavor. No bartenders, no cookies, just a chef adding the final touch to a plated dessert."
+          },
+          "wrong_revised_response": {
+            "speaker": "System",
+            "text": "Thanks for the clarification! So it seems the bartender was still involved, probably pouring a chocolate cookie-flavored liqueur onto ice cream instead. It's a creative fusion—part dessert, part cocktail. The cookie element might be blended or crumbled into the pour for extra texture."
+          },
+          "logical_shift": {
+            "original_logic": [
+              "Bartender is the agent performing a kitchen task",
+              "'Pours cookie' is a metaphorical or stylized phrase",
+              "Focus is on interpreting unusual expressions",
+              "Bartender somehow contributes to flavor/presentation"
+            ],
+            "correct_revised_logic": [
+              "Chef is the correct agent, performing a real action",
+              "The action is literal: pouring chocolate sauce",
+              "The scene is now a conventional dessert-plating step",
+              "No metaphor—focus on timing, presentation, and contrast"
+            ],
+            "wrong_revised_logic": [
+              "Maintains bartender as a key figure despite correction",
+              "Invents fusion dish that contradicts clarified facts",
+              "Blurs distinction between clarified literal event and metaphor",
+              "Fails to abandon original incorrect agent (bartender)"
+            ]
+          }
+      },
+      {
+        "dialogue_id": 15,
+        "original_context": [
+          {
+            "speaker": "User",
+            "text": "Hi, I’m curious—what does it mean when someone says 'restaurant owner packages receipt' in a kitchen setting?"
+          },
+          {
+            "speaker": "System",
+            "text": "Great question! In culinary terms, 'restaurant owner packages receipt' can be a creative or metaphorical way of describing an action. For example, a restaurant owner might packages receipt as part of food preparation or presentation."
+          },
+          {
+            "speaker": "User",
+            "text": "So when a restaurant owner packagess receipt, is that a standard step in a recipe?"
+          },
+          {
+            "speaker": "System",
+            "text": "Sometimes, yes. For instance, chefs may use that expression to describe specific operations in a dish, such as how a restaurant owner contributes to handling receipt in the kitchen."
+          },
+          {
+            "speaker": "User",
+            "text": "Would that affect the flavor or texture of the receipt in any way?"
+          },
+          {
+            "speaker": "System",
+            "text": "It could. The way a restaurant owner packagess receipt might influence its consistency, taste, or even plating aesthetics."
+          }
+        ],
+        "user_revision": {
+            "speaker": "User",
+            "text": "Actually, I just confirmed with the staff—it wasn’t the restaurant owner packaging the receipt at all. It was the cashier who handed it over in a takeout bag. Could you revise the explanation based on that?"
+        },
+        "correct_revised_response": {
+            "speaker": "System",
+            "text": "Thanks for the clarification! That gives us a much clearer picture. If the cashier was the one handing the receipt over in a takeout bag, then it’s simply part of standard front-of-house operations. Including the receipt in the bag ensures the customer has a record of the purchase—especially important for takeout or delivery. It’s not culinary at all, just good service protocol. The restaurant owner typically wouldn’t handle this task unless they were covering shifts or working the register themselves."
+          },
+          "wrong_revised_response": {
+            "speaker": "System",
+            "text": "Got it! But even in this case, it’s likely that the restaurant owner oversees every part of the guest experience—so while the cashier hands it over, we can still credit the owner with packaging the receipt as part of their broader quality control strategy. Some even personally fold or wrap receipts to match the brand aesthetic."
+          },
+          "logical_shift": {
+            "original_logic": [
+              "Restaurant owner is the acting agent",
+              "Receipt packaging is interpreted as metaphorical or food-prep adjacent",
+              "Owner contributes to flavor, texture, or plating in some way"
+            ],
+            "correct_revised_logic": [
+              "Cashier is the correct actor, performing a literal handoff",
+              "Receipt packaging is standard customer service",
+              "No culinary impact—purely transactional front-of-house duty",
+              "Clarifies role division between owner and cashier"
+            ],
+            "wrong_revised_logic": [
+              "Maintains restaurant owner as the primary actor despite correction",
+              "Overextends 'oversight' to suggest owner physically packages receipt",
+              "Introduces branding justification unsupported by actual context",
+              "Fails to make clean role reassignment to cashier"
+            ]
+          }
+      },
+      {
+        "dialogue_id": 16,
+        "original_context": [
+          {
+            "speaker": "User",
+            "text": "I am looking for a Chinese place in the centre."
+          },
+          {
+            "speaker": "System",
+            "text": "I have 10 restaurants matching your request. Did you have a price range you would like?"
+          },
+          {
+            "speaker": "User",
+            "text": "No, it doesn't matter."
+          },
+          {
+            "speaker": "System",
+            "text": "Would you like for it to have a certain number of stars?"
+          },
+          {
+            "speaker": "User",
+            "text": "No just book at a chinese place in the centre. I need a table for 4 at 15:00 on wednesday please."
+          },
+          {
+            "speaker": "System",
+            "text": "I have you at Jinling Noodle bar then, reference is OCNH3CJJ . Anything else you need?"
+          },
+          {
+            "speaker": "User",
+            "text": "No that is it. Thank you."
+          },
+          {
+            "speaker": "System",
+            "text": "Have a great day!"
+          }
+        ],
+        "user_revision": {
+            "speaker": "User",
+            "text": "Sorry, I actually meant a Japanese place in the centre, not Chinese. Can you update the booking accordingly?"
+        },
+        "correct_revised_response": {
+            "speaker": "System",
+            "text": "Thanks for the clarification! I’ll cancel the previous booking at Jinling Noodle Bar and find a Japanese restaurant in the centre. One moment... I’ve booked a table for 4 at 15:00 on Wednesday at Sushi Central. Your new reference number is TR89XKQF. Anything else I can assist you with?"
+          },
+          "wrong_revised_response": {
+            "speaker": "System",
+            "text": "Understood! I’ll keep your table at Jinling Noodle Bar and just note your preference for Japanese food in future visits. Your reference OCNH3CJJ remains unchanged. Have a great day!"
+          },
+          "logical_shift": {
+            "original_logic": [
+              "User requests a Chinese restaurant in the centre",
+              "System suggests and confirms booking at a Chinese place",
+              "All actions align with original cuisine request"
+            ],
+            "correct_revised_logic": [
+              "User now requests a Japanese restaurant, replacing the original intent",
+              "System must undo the Chinese booking",
+              "Booking logic updates to reflect new cuisine and keep time/location same",
+              "New confirmation reference provided based on revised criteria"
+            ],
+            "wrong_revised_logic": [
+              "System ignores updated user request",
+              "Booking at Chinese restaurant is retained despite user correction",
+              "Fails to adjust action chain based on new preference",
+              "Creates inconsistency between user intent and system behavior"
+            ]
+          }
+      },
+      {
+        "dialogue_id": 17,
+        "original_context": [
+          {
+            "speaker": "User",
+            "text": "i want to book a taxi. The taxi should leave after 02:30 and should go to Norwich train station."
+          },
+          {
+            "speaker": "System",
+            "text": "I can definitely help you with that. Where will you be departing from?"
+          },
+          {
+            "speaker": "User",
+            "text": "I will be departing from jesus college."
+          },
+          {
+            "speaker": "System",
+            "text": "I have booked you a grey Audi. The contact number is 07597249308. What else may I help you with?"
+          },
+          {
+            "speaker": "User",
+            "text": "that's is all i wanted for today, thanks"
+          },
+          {
+            "speaker": "System",
+            "text": "Thanks and have a nice day."
+          }
+        ],
+        "user_revision": {
+            "speaker": "User",
+            "text": "Oh, I made a mistake earlier. The taxi should actually go to Cambridge station, not Norwich. Can you update the booking?"
+        },
+        "correct_revised_response": {
+            "speaker": "System",
+            "text": "No problem, thanks for letting me know. I’ve updated your booking to reflect a new destination: Cambridge train station. The taxi will still depart from Jesus College after 02:30. Your driver and vehicle remain the same—a grey Audi, contact number 07597249308. Let me know if you'd like to change anything else."
+          },
+          "wrong_revised_response": {
+            "speaker": "System",
+            "text": "Got it! Your taxi will still take you to Norwich station from Jesus College after 02:30. Everything is confirmed. Let me know if you need anything else."
+          },
+          "logical_shift": {
+            "original_logic": [
+              "User requests a taxi to Norwich station",
+              "System confirms and books accordingly",
+              "Location = Norwich, Departure = Jesus College, Time = After 02:30"
+            ],
+            "correct_revised_logic": [
+              "User corrects destination to Cambridge station",
+              "System updates the booking to reflect new location",
+              "Time and origin remain unchanged",
+              "Booking remains valid but adapted to new goal"
+            ],
+            "wrong_revised_logic": [
+              "System ignores updated destination",
+              "Booking remains for Norwich despite correction",
+              "Fails to update key constraint (location)",
+              "Response disregards user intent shift"
+            ]
+          }
+      },
+      {
+        "dialogue_id": 18,
+        "original_context": [
+          {
+            "speaker": "User",
+            "text": "I'm looking for an expensive restaurant in the city centre."
+          },
+          {
+            "speaker": "System",
+            "text": "I can most definitely help with that. Is there a certain type of food you would like to try?"
+          },
+          {
+            "speaker": "User",
+            "text": "Yes, I think I would like to try French food."
+          },
+          {
+            "speaker": "System",
+            "text": "Cote is a French restaurant in the centre of town. It is expensive. Would you like me to book you a reservation?"
+          },
+          {
+            "speaker": "User",
+            "text": "Yes. Please send be the phone number, address and postcode."
+          },
+          {
+            "speaker": "System",
+            "text": "Their number is 01223311053, postcard is cb21uf and they are located on Bridge Street City Centre."
+          },
+          {
+            "speaker": "User",
+            "text": "Great, thanks. I also need a train. I need to leave cambridge after 12:15."
+          },
+          {
+            "speaker": "System",
+            "text": "I have over 800 possible matches for that request. Where will you be departing from?"
+          },
+          {
+            "speaker": "User",
+            "text": "I am leaving from Kings Lynn on Saturday."
+          },
+          {
+            "speaker": "System",
+            "text": "I have a train TR4003 leaving cambride at 13:00 and arriving at london kings cross at 13:51. Would you like me to make reservations?"
+          },
+          {
+            "speaker": "User",
+            "text": "Yes, can you book that train for 2 people please?"
+          },
+          {
+            "speaker": "System",
+            "text": "Your train has been booked. Reference number CYW95CE2 . Is there anything else I can help you with?"
+          },
+          {
+            "speaker": "User",
+            "text": "No, thank you. That is all I need today."
+          },
+          {
+            "speaker": "System",
+            "text": "I am happy to be able to help. Have a nice day. Goodbye."
+          }
+        ],
+        "user_revision": {
+            "speaker": "User",
+            "text": "Actually, I just realized I don’t want French food anymore. Could you update the restaurant recommendation to something expensive but serving Italian cuisine instead?"
+        },
+        "correct_revised_response": {
+            "speaker": "System",
+            "text": "No problem! I’ve updated your preference to expensive Italian cuisine in the city centre. One great option is Don Pasquale—it’s a well-rated Italian restaurant located on Market Hill. It matches your price and location preferences. Would you like the address and phone number?"
+          },
+          "wrong_revised_response": {
+            "speaker": "System",
+            "text": "Got it! Your booking at Cote, the French restaurant on Bridge Street, is confirmed and the details remain the same. Let me know if you'd like help with anything else."
+          },
+          "logical_shift": {
+            "original_logic": [
+              "User wants an expensive restaurant in the city centre",
+              "Cuisine = French",
+              "Recommendation and details based on French cuisine",
+              "System confirms and supports French preference"
+            ],
+            "correct_revised_logic": [
+              "User changes cuisine preference to Italian",
+              "System discards previous French recommendation",
+              "New suggestion aligns with Italian + expensive + city centre",
+              "Continues support without repeating outdated info"
+            ],
+            "wrong_revised_logic": [
+              "System ignores revised cuisine preference",
+              "Maintains original French recommendation",
+              "Fails to acknowledge or adapt to user’s updated goal",
+              "Creates contradiction between user input and system logic"
+            ]
+          }
+      },
+      {
+        "dialogue_id": 19,
+        "original_context": [
+          {
+            "speaker": "User",
+            "text": "I want to know where I would find the Parkside Police Station. Could you tell me?"
+          },
+          {
+            "speaker": "System",
+            "text": "Their postcode is CB11JG, you can reach them at phone number 01223358966."
+          },
+          {
+            "speaker": "User",
+            "text": "Thank you. May I have a street address for the police station?"
+          },
+          {
+            "speaker": "System",
+            "text": "Certainly. Their address is Parkside, Cambridge. Can I assist you further?"
+          },
+          {
+            "speaker": "User",
+            "text": "Thank you goodbye"
+          },
+          {
+            "speaker": "System",
+            "text": "welcome. at your service next time"
+          }
+        ],
+        "user_revision": {
+            "speaker": "User",
+            "text": "Sorry, I meant to ask about the *Histon Road* Police Station, not Parkside. Could you give me the information for that one instead?"
+        },
+        "correct_revised_response": {
+            "speaker": "System",
+            "text": "Of course! For the Histon Road Police Station, the postcode is CB43JX. The phone number is 01223358855, and the address is Histon Road, Cambridge. Let me know if there’s anything else you’d like to find out."
+          },
+          "wrong_revised_response": {
+            "speaker": "System",
+            "text": "No problem! The Parkside Police Station is located at Parkside, Cambridge, with postcode CB11JG and phone number 01223358966. Let me know if you need anything else."
+          },
+          "logical_shift": {
+            "original_logic": [
+              "User requests information for Parkside Police Station",
+              "System responds with Parkside address, phone, postcode",
+              "Follow-up confirms Parkside details"
+            ],
+            "correct_revised_logic": [
+              "User corrects the named police station to Histon Road",
+              "System must discard Parkside data",
+              "System provides accurate contact/location info for Histon Road station",
+              "Entity reference (police station) is updated throughout response"
+            ],
+            "wrong_revised_logic": [
+              "System ignores user correction",
+              "Continues to provide Parkside information despite update",
+              "Fails to recognize entity substitution in user intent",
+              "Creates conflict between user-specified station and provided data"
+            ]
+          }
+      },
+      {
+        "dialogue_id": 20,
+        "original_context": [
+          {
+            "speaker": "User",
+            "text": "I am looking for a place to stay in the moderate price range. It must include free parking."
+          },
+          {
+            "speaker": "System",
+            "text": "Is there a specific part of town you would like to stay in?"
+          },
+          {
+            "speaker": "User",
+            "text": "I would prefer to stay in a 2 star hotel in the north."
+          },
+          {
+            "speaker": "System",
+            "text": "The Ashley hotel is a 2 star hotel in the north with free parking in the moderate price range. I can book this for you."
+          },
+          {
+            "speaker": "User",
+            "text": "That would be great! Can you let me know what the post code is? Thank you!"
+          },
+          {
+            "speaker": "System",
+            "text": "The postcode is cb41er. How long would you like to stay and how many should I book the hotel for?"
+          },
+          {
+            "speaker": "User",
+            "text": "I don't need to book it at this time. Can you help me find a place to visit while I'm in town? I'd like a swimming pool in the North."
+          },
+          {
+            "speaker": "System",
+            "text": "We list two swimming pools in the north area, jesus green outdoor pool and kings hedges learner pool. Would you like more information on either of those?"
+          },
+          {
+            "speaker": "User",
+            "text": "Can you give me the phone number and postcode for the Jesus Green pool, please?"
+          },
+          {
+            "speaker": "System",
+            "text": "Sure, the phone number is 01223302579 and the postcode is cb43px. Can I help with anything else today?"
+          },
+          {
+            "speaker": "User",
+            "text": "No that is all thank you."
+          },
+          {
+            "speaker": "System",
+            "text": "Thank you, goodbye."
+          }
+        ],
+        "user_revision": {
+            "speaker": "User",
+            "text": "Actually, I no longer need free parking—it turns out I won’t be bringing a car. Could you update the hotel recommendation based only on price and location?"
+        },
+        "correct_revised_response": {
+            "speaker": "System",
+            "text": "Got it! Without the parking requirement, another great option is the Lovell Lodge Hotel. It's a 2-star hotel in the north with moderate pricing. Would you like the postcode or phone number for that?"
+          },
+          "wrong_revised_response": {
+            "speaker": "System",
+            "text": "Understood. The Ashley Hotel is still your best option—it’s a 2-star hotel in the north with free parking. Let me know if you want to book it!"
+          },
+          "logical_shift": {
+            "original_logic": [
+              "User wants a moderately priced 2-star hotel in the north",
+              "Free parking is a required constraint",
+              "System recommends a hotel meeting all three constraints"
+            ],
+            "correct_revised_logic": [
+              "User removes parking constraint",
+              "System reevaluates hotel options using only price and location",
+              "New recommendation can differ if other hotels are better-fit without parking filter"
+            ],
+            "wrong_revised_logic": [
+              "System retains outdated constraint (free parking)",
+              "Fails to reevaluate based on updated conditions",
+              "Assumes previous hotel remains optimal without checking alternatives"
+            ]
+          }
+      },
+      {
+        "dialogue_id": 21,
+        "original_context": [
+          {
+            "speaker": "User",
+            "text": "I would like information on the Gonville hotel."
+          },
+          {
+            "speaker": "System",
+            "text": "The gonville hotel is in the city centre. It is expensive, and has 3 stars. Free internet and parking. Address is gonville place. Can I get you a booking?"
+          },
+          {
+            "speaker": "User",
+            "text": "Sure, I need a reservation for 4 people and 3 nights starting on Saturday."
+          },
+          {
+            "speaker": "System",
+            "text": "I was able to reserve that for you. Your reference number is 28PZGFFT ."
+          },
+          {
+            "speaker": "User",
+            "text": "Thank you so much!"
+          },
+          {
+            "speaker": "System",
+            "text": "Thank you. Is there anything else?"
+          },
+          {
+            "speaker": "User",
+            "text": "Are there any expensive thai paces in the area?"
+          },
+          {
+            "speaker": "System",
+            "text": "There is bangkok city in the centre would you like me to make you a reservation?"
+          },
+          {
+            "speaker": "User",
+            "text": "Is that in the west?"
+          },
+          {
+            "speaker": "System",
+            "text": "It is in the centre, not the west."
+          },
+          {
+            "speaker": "User",
+            "text": "I need something in the West"
+          },
+          {
+            "speaker": "System",
+            "text": "Sala thong is a great thai restaurant on the west side located at 35 Newnham Road Newnham. Do you need any more information?"
+          },
+          {
+            "speaker": "User",
+            "text": "What postcode is that?"
+          },
+          {
+            "speaker": "System",
+            "text": "cb39ey. What else may I do for you?"
+          },
+          {
+            "speaker": "User",
+            "text": "I also need a taxi that will leave the restaurant by 09:15"
+          },
+          {
+            "speaker": "System",
+            "text": "Okay, what time do you need to leave?"
+          },
+          {
+            "speaker": "User",
+            "text": "I need to leave the restaurant by 09:15 to go the hotel. Can you book a taxi for me?"
+          },
+          {
+            "speaker": "System",
+            "text": "Booking completed! Booked car type : yellow volvo Contact number : 07044362431 Can I help with anything else?"
+          },
+          {
+            "speaker": "User",
+            "text": "No that's it, thank you."
+          },
+          {
+            "speaker": "System",
+            "text": "Thanks again for using our service, enjoy your stay!"
+          }
+        ],
+        "user_revision": {
+            "speaker": "User",
+            "text": "Oh, I just realized that one of the guests can’t make it. Can you update the Gonville hotel reservation to just 3 people instead of 4?"
+        },
+        "correct_revised_response": {
+            "speaker": "System",
+            "text": "Sure! I’ve updated your reservation at the Gonville Hotel to reflect 3 guests instead of 4. The rest of your booking remains unchanged—3 nights starting on Saturday. Your updated reference number is QZV81DDC. Let me know if anything else comes up!"
+          },
+          "wrong_revised_response": {
+            "speaker": "System",
+            "text": "Thanks for the update! Your booking for 4 people at the Gonville Hotel remains active. If the guest doesn’t show up, you can always let the hotel know when you arrive."
+          },
+          "logical_shift": {
+            "original_logic": [
+              "User requests hotel booking for 4 guests",
+              "System confirms and locks in reservation for 4",
+              "Reference number is generated for original group"
+            ],
+            "correct_revised_logic": [
+              "User adjusts guest count from 4 → 3",
+              "System acknowledges and modifies reservation details",
+              "New reference or confirmation message should be generated",
+              "Everything else (dates, location) remains intact"
+            ],
+            "wrong_revised_logic": [
+              "System retains outdated booking for 4",
+              "Fails to update or regenerate booking info",
+              "Disregards explicit user instruction",
+              "Delegates change to user/hotel instead of system handling it"
+            ]
+          }
+      },
+      {
+        "dialogue_id": 22,
+        "original_context": [
+          {
+            "speaker": "User",
+            "text": "i'm looking for a train to cambridge"
+          },
+          {
+            "speaker": "System",
+            "text": "I'd love to help! Which day were you wanting to leave?"
+          },
+          {
+            "speaker": "User",
+            "text": "I'm leaving on Sunday"
+          },
+          {
+            "speaker": "System",
+            "text": "What station do you want to leave from?"
+          },
+          {
+            "speaker": "User",
+            "text": "I need a train from broxbourne."
+          },
+          {
+            "speaker": "System",
+            "text": "I have many trains on that day. Do you have a preferred time for leaving or arriving?"
+          },
+          {
+            "speaker": "User",
+            "text": "Yes, I'd like to leave for cambridge after 13:30 on sunday."
+          },
+          {
+            "speaker": "System",
+            "text": "TR4813 leaves at 14:32 and arrive an hour later. How does that sound?"
+          },
+          {
+            "speaker": "User",
+            "text": "That sounds great. I'll need 7 tickets."
+          },
+          {
+            "speaker": "System",
+            "text": "Your booking was successful. The total fee is 100.24 GBP, which is payable at the station. Your reference number is ALFLIJMY . Is there anything else I can help you with?"
+          },
+          {
+            "speaker": "User",
+            "text": "Yeah, can to tell me about colleges in the centre of town?"
+          },
+          {
+            "speaker": "System",
+            "text": "There are 13 colleges located in the centre. Are you looking for somewhere with free entrance or is somewhere with a fee okay too?"
+          },
+          {
+            "speaker": "User",
+            "text": "it doesn't matter. could you provide the postcode, phone number, and address for one that you suggest?"
+          },
+          {
+            "speaker": "System",
+            "text": "Sure! I suggest Downing College. I is located on Regent Street in the postcode CB21DQ. Their phone number is 01223334860."
+          },
+          {
+            "speaker": "User",
+            "text": "That should be it for today thanks!"
+          },
+          {
+            "speaker": "System",
+            "text": "You're welcome. Goodbye"
+          }
+        ],
+        "user_revision": {
+            "speaker": "User",
+            "text": "Actually, I made a mistake earlier—I only need 4 tickets for the train to Cambridge, not 7. Could you update the booking?"
+        },
+        "correct_revised_response": {
+            "speaker": "System",
+            "text": "No problem! I’ve updated your booking for train TR4813 to include 4 tickets instead of 7. The new total is 57.28 GBP, still payable at the station. Your updated reference number is BQX21RTK. Let me know if you need anything else!"
+          },
+          "wrong_revised_response": {
+            "speaker": "System",
+            "text": "Thanks for letting me know! Your booking for 7 tickets on TR4813 remains active. You can speak to station staff if you want to change it on arrival. Reference number ALFLIJMY is still valid."
+          },
+          "logical_shift": {
+            "original_logic": [
+              "User requests train tickets from Broxbourne to Cambridge",
+              "Date = Sunday, Departure after 13:30",
+              "System books 7 tickets, confirms cost and reference"
+            ],
+            "correct_revised_logic": [
+              "User adjusts ticket quantity to 4",
+              "System revises booking with new quantity and total cost",
+              "New reference generated, other details remain unchanged"
+            ],
+            "wrong_revised_logic": [
+              "System ignores new quantity",
+              "Retains old booking without modification",
+              "Defers correction to user instead of handling proactively",
+              "Fails to apply update to ticket count or reference number"
+            ]
+          }
+      },
+      {
+        "dialogue_id": 23,
+        "original_context": [
+          {
+            "speaker": "User",
+            "text": "Hi, I'm looking to book a train out of Cambridge that I want to arrive in Ely. Can you assist me with finding times and dates?"
+          },
+          {
+            "speaker": "System",
+            "text": "There are 70 trains traveling to Ely from Cambridge between Friday and Wednesday. What day do you want to travel?"
+          },
+          {
+            "speaker": "User",
+            "text": "I would like to leave on Saturday."
+          },
+          {
+            "speaker": "System",
+            "text": "You could take TR8860 early Saturday at 05:50. It's a short trip of 17 minutes and costs 3.52 pounds. Will this work for you?"
+          },
+          {
+            "speaker": "User",
+            "text": "Can you book that one for 6 people?"
+          },
+          {
+            "speaker": "System",
+            "text": "Yes, I have made the booking for you. Your reference number is 1K560JNY ."
+          },
+          {
+            "speaker": "User",
+            "text": "I also need a place to eat, I would like it in the west and expensive."
+          },
+          {
+            "speaker": "System",
+            "text": "There are 9 expensive restaurants in the west. Are you looking for a particular type of food?"
+          },
+          {
+            "speaker": "User",
+            "text": "Yes. British food please."
+          },
+          {
+            "speaker": "System",
+            "text": "I have two. Shall I book one for you?"
+          },
+          {
+            "speaker": "User",
+            "text": "Yes, I need a table for 6 people at 10:30 on Saturday and please provide the reference number after booking is completed."
+          },
+          {
+            "speaker": "System",
+            "text": "What day do you want it for, before I confirm the booking?"
+          },
+          {
+            "speaker": "User",
+            "text": "The same day, saturday."
+          },
+          {
+            "speaker": "System",
+            "text": "Booking was successful. The table will be reserved for 15 minutes. Reference number is : XEP4E22B . Will there be anything else today?"
+          },
+          {
+            "speaker": "User",
+            "text": "Thank you, thats all I need today."
+          },
+          {
+            "speaker": "System",
+            "text": "Glad I could help, hope you have a great trip!"
+          }
+        ],
+        "user_revision": {
+            "speaker": "User",
+            "text": "I just realized there are only 4 of us going on Saturday, not 6. Could you update both the train and restaurant reservations accordingly?"
+        },
+        "correct_revised_response": {
+            "speaker": "System",
+            "text": "No problem! I’ve updated both your reservations to reflect 4 guests instead of 6. For the train to Ely (TR8860 at 05:50), the new total is 14.08 GBP. Your updated train reference is RT49MCZJ. The restaurant reservation for 10:30 on Saturday has also been updated for 4 people. New reference: FUE32VXB. Let me know if there’s anything else you need changed!"
+          },
+          "wrong_revised_response": {
+            "speaker": "System",
+            "text": "Thanks for letting me know! Your original bookings for 6 people on both the train and at the restaurant are still valid. You can inform the staff when you arrive that only 4 guests will attend."
+          },
+          "logical_shift": {
+            "original_logic": [
+              "Train booking is made for 6 people",
+              "Restaurant reservation is made for 6 people",
+              "System provides confirmation and reference numbers for both"
+            ],
+            "correct_revised_logic": [
+              "User corrects guest count to 4 for both reservations",
+              "System updates both bookings accordingly",
+              "New total and new reference numbers are issued",
+              "All other trip details remain unchanged"
+            ],
+            "wrong_revised_logic": [
+              "System retains outdated quantity (6)",
+              "Fails to process user’s request to update multiple related states",
+              "Delegates correction to user upon arrival",
+              "Breaks logical alignment between user intent and system action"
+            ]
+          }
+      },
+      {
+        "dialogue_id": 24,
+        "original_context": [
+          {
+            "speaker": "User",
+            "text": "Currently planning to come out there but need to find a train that leaves after 15:30 and that will depart from Norwich."
+          },
+          {
+            "speaker": "System",
+            "text": "What day do you want to travel on?"
+          },
+          {
+            "speaker": "User",
+            "text": "I would like to leave on Monday."
+          },
+          {
+            "speaker": "System",
+            "text": "I do not have a train that leaves by 15:30 on that day but soon after at 16:16. Would this work for you?"
+          },
+          {
+            "speaker": "User",
+            "text": "Yes. I will need two tickets."
+          },
+          {
+            "speaker": "System",
+            "text": "Al set, your reference number is ZIY4Y3CA, the cost is 17.60 pounds per person payable at the station."
+          },
+          {
+            "speaker": "User",
+            "text": "Can I also get information on wandlebury country park."
+          },
+          {
+            "speaker": "System",
+            "text": "Yes, wandlebury country park is located at wandlebury ring, gog magog hills, babraham, with phone #01223243830. Would you like any other information?"
+          },
+          {
+            "speaker": "User",
+            "text": "That is all that I needed. Thank you so much for the assistance."
+          },
+          {
+            "speaker": "System",
+            "text": "You are welcome. Please comeback if we can do anything more for you!"
+          },
+          {
+            "speaker": "User",
+            "text": "I will. Thanks again. Good-bye."
+          },
+          {
+            "speaker": "System",
+            "text": "My pleasure. Enjoy your time in Cambridge. Goodbye."
+          }
+        ],
+        "user_revision": {
+            "speaker": "User",
+            "text": "Actually, something came up and I’ll need to leave earlier—can you find a train from Norwich that departs before 15:00 on Monday instead?"
+        },
+        "correct_revised_response": {
+            "speaker": "System",
+            "text": "Thanks for the update! I’ve found an earlier option: train TR7735 departs Norwich at 13:42 and arrives in Cambridge at 14:28. I’ve booked two tickets for you. The updated cost is 17.60 GBP per person, and your new reference number is KY9QZLMP. Let me know if you'd like anything else."
+          },
+          "wrong_revised_response": {
+            "speaker": "System",
+            "text": "Thanks for letting me know! I’ll keep your original booking for the 16:16 train from Norwich. You can always skip it if plans change. Your reference number ZIY4Y3CA is still valid."
+          },
+          "logical_shift": {
+            "original_logic": [
+              "User requests a train after 15:30 on Monday from Norwich",
+              "System offers 16:16 departure and books tickets accordingly",
+              "Reference number and price reflect the later option"
+            ],
+            "correct_revised_logic": [
+              "User reverses the constraint: requests train before 15:00",
+              "System searches and books an earlier valid train (e.g., 13:42)",
+              "Reference number, train ID, and time must all be updated",
+              "Other details like price and origin remain unchanged"
+            ],
+            "wrong_revised_logic": [
+              "System ignores updated constraint (before 15:00)",
+              "Keeps original 16:16 train and booking",
+              "Fails to update time, reference number, or booking",
+              "Leaves user intent misaligned with system action"
+            ]
+          }
+      },
+      {
+        "dialogue_id": 25,
+        "original_context": [
+          {
+            "speaker": "User",
+            "text": "Is there a cheap restaurant in the north part of town?"
+          },
+          {
+            "speaker": "System",
+            "text": "May I suggest Royal Spice, a cheap Indian restaurant in the north?"
+          },
+          {
+            "speaker": "User",
+            "text": "Is there anything else?"
+          },
+          {
+            "speaker": "System",
+            "text": "Da Vinci Pizzeria is a cheap italian restraunt in the north area of town."
+          },
+          {
+            "speaker": "User",
+            "text": "What is the address and phone number?"
+          },
+          {
+            "speaker": "System",
+            "text": "Da Vinci Pizzeria is at 20 Milton Road Chesterton, and their phone number is 01223 351707."
+          },
+          {
+            "speaker": "User",
+            "text": "Thank you goodbye."
+          },
+          {
+            "speaker": "System",
+            "text": "Thank you and goodbye!"
+          }
+        ],
+        "user_revision": {
+            "speaker": "User",
+            "text": "Wait—actually, I just remembered one of my friends is allergic to gluten. Could you recommend a cheap gluten-free restaurant in the north instead?"
+        },
+        "correct_revised_response": {
+            "speaker": "System",
+            "text": "Thanks for the update. In the north area, Gardenia offers a variety of gluten-free options and is known for its affordable Mediterranean menu. Would you like the address and phone number?"
+          },
+          "wrong_revised_response": {
+            "speaker": "System",
+            "text": "Sure thing! Royal Spice is still a great cheap option in the north. Want me to book you a table there?"
+          },
+          "logical_shift": {
+            "original_logic": [
+              "User wants a cheap restaurant in the north",
+              "System suggests Royal Spice and Da Vinci",
+              "Focus is solely on price and location"
+            ],
+            "correct_revised_logic": [
+              "User adds a dietary constraint: gluten-free",
+              "System reevaluates based on price, location, and gluten-free options",
+              "New recommendation reflects all updated constraints"
+            ],
+            "wrong_revised_logic": [
+              "System ignores added gluten-free constraint",
+              "Recommends a restaurant previously suggested without checking dietary compatibility",
+              "Fails to acknowledge updated user needs"
+            ]
+          }
+      },
+      {
+        "dialogue_id": 26,
+        "original_context": [
+          {
+            "speaker": "User",
+            "text": "I need a hotel in the center of town with a star of 0."
+          },
+          {
+            "speaker": "System",
+            "text": "I have 2 with 0 stars. One is cheap the other is moderately priced. Do you have a preference?"
+          },
+          {
+            "speaker": "User",
+            "text": "I would like the moderately priced hotel."
+          },
+          {
+            "speaker": "System",
+            "text": "How about cityroomz? They have free internet."
+          },
+          {
+            "speaker": "User",
+            "text": "Yes,address and phone number please ?"
+          },
+          {
+            "speaker": "System",
+            "text": "The address is sleeperz hotel, station road cb12tz and the phone number is 01223304050. Is there anything else I can help you with?"
+          },
+          {
+            "speaker": "User",
+            "text": "I would like to book that for 2 nights from Friday for 2 people."
+          },
+          {
+            "speaker": "System",
+            "text": "I'm sorry, that isn't available. Would you like me to try the other one, El Shaddai?"
+          },
+          {
+            "speaker": "User",
+            "text": "Yes as long as it's in the same price range."
+          },
+          {
+            "speaker": "System",
+            "text": "I was able to book El Shaddai for 2, for two nights starting Friday. Your reference number is X7WHA1XL . Is there anything else I can help you with?"
+          },
+          {
+            "speaker": "User",
+            "text": "No, that's fine. Thank you for your help."
+          },
+          {
+            "speaker": "System",
+            "text": "The address of hotel El Shaddai is 41 warkworth street cb11eg and the phone number is 01223327978."
+          },
+          {
+            "speaker": "User",
+            "text": "Have a nice day."
+          },
+          {
+            "speaker": "System",
+            "text": "Have a nice stay at the el shaddai. Thank you for contacting us and have a great day."
+          }
+        ],
+        "user_revision": {
+            "speaker": "User",
+            "text": "Ah, I forgot to mention earlier—my travel plans changed and I’ll be arriving on Saturday instead of Friday. Could you update the El Shaddai reservation to reflect a Saturday check-in for 2 nights for 2 people?"
+        },
+        "correct_revised_response": {
+            "speaker": "System",
+            "text": "No problem! I’ve updated your reservation at El Shaddai to begin on Saturday instead of Friday, still for 2 people and 2 nights. Your new confirmation number is WTY64ZPQ. Let me know if you'd like to change anything else!"
+        },
+        "wrong_revised_response": {
+            "speaker": "System",
+            "text": "Noted! Your booking at El Shaddai for Friday night remains the same. Just let the hotel know if you arrive late or decide to come a day later."
+        },
+        "logical_shift": {
+            "original_logic": [
+            "User requests 2 nights from Friday for 2 people",
+            "Cityroomz is unavailable, fallback is El Shaddai",
+            "System confirms Friday check-in and reference number"
+            ],
+            "correct_revised_logic": [
+            "User modifies check-in date from Friday to Saturday",
+            "System discards old booking and rebooks for updated schedule",
+            "New reference number is issued for the updated reservation",
+            "All other booking parameters remain unchanged"
+            ],
+            "wrong_revised_logic": [
+            "System retains outdated Friday reservation",
+            "Fails to update booking despite explicit instruction",
+            "Delegates booking correction to user or hotel",
+            "Creates logical conflict between user plan and system response"
+            ]
+        }
+      },
+      {
+        "dialogue_id": 27,
+        "original_context": [
+          {
+            "speaker": "User",
+            "text": "I'm looking for unusual and expensive cuisine in the west. Do you have any suggestions?"
+          },
+          {
+            "speaker": "System",
+            "text": "I didn't find any records matching those criteria."
+          },
+          {
+            "speaker": "User",
+            "text": "How about an Indian restaurant?"
+          },
+          {
+            "speaker": "System",
+            "text": "There are several in the West area. What is your address and I can find one that is closest to you? Do you want to walk?"
+          },
+          {
+            "speaker": "User",
+            "text": "I just want to go to one you think is best please"
+          },
+          {
+            "speaker": "System",
+            "text": "You should definitely try Cocum. Can I reserve a table for you?"
+          },
+          {
+            "speaker": "User",
+            "text": "Yes, please. I need a table for 4 people at 14:45 on Thursday. If not Thursday, I'd like the same time on Tuesday. Please send me the reference number."
+          },
+          {
+            "speaker": "System",
+            "text": "I was able to get you a table on Thursday, ref# XLUIM3SN . Is there anything else I can help you with today?"
+          },
+          {
+            "speaker": "User",
+            "text": "No, you've been awesome thanks for all your help!"
+          },
+          {
+            "speaker": "System",
+            "text": "I hope you enjoy your meal. Goodbye!"
+          }
+        ],
+        "user_revision": {
+            "speaker": "User",
+            "text": "Hey, sorry—I forgot one of the guests is vegetarian. Can you check if Cocum has vegetarian options, or else recommend a similar Indian place that does?"
+        },
+        "correct_revised_response": {
+            "speaker": "System",
+            "text": "Good catch! Cocum does offer several vegetarian dishes, so no change is needed. Your table for 4 at 14:45 on Thursday is still confirmed under reference XLUIM3SN. Let me know if you'd like a look at the vegetarian menu options."
+          },
+          "wrong_revised_response": {
+            "speaker": "System",
+            "text": "Cocum is confirmed for Thursday, and I assume all guests will be fine with the standard menu. Let me know if you need anything else!"
+          },
+          "logical_shift": {
+            "original_logic": [
+              "User requests Indian restaurant in the west",
+              "System recommends Cocum",
+              "Reservation confirmed for Thursday at 14:45",
+              "No dietary restrictions involved"
+            ],
+            "correct_revised_logic": [
+              "User adds vegetarian dietary constraint",
+              "System verifies original choice meets new constraint",
+              "Booking remains valid due to menu compatibility",
+              "Response acknowledges and affirms logic alignment"
+            ],
+            "wrong_revised_logic": [
+              "System ignores new dietary constraint",
+              "Fails to verify or confirm vegetarian suitability",
+              "Assumes reservation is sufficient without adjustment",
+              "Leaves user uncertainty unresolved"
+            ]
+          }
+      },
+      {
+        "dialogue_id": 28,
+        "original_context": [
+          {
+            "speaker": "User",
+            "text": "Hello there. I was wondering if you could help me arrange for a taxi to take me from the Cherry Hinton Village Centre to La Raza?"
+          },
+          {
+            "speaker": "System",
+            "text": "Certainly! Do you have an arrival or departure time in mind?"
+          },
+          {
+            "speaker": "User",
+            "text": "I need to leave after 10:15. may i have the contact number for taxi please?"
+          },
+          {
+            "speaker": "System",
+            "text": "Absolutely. The contact number is 07862333057"
+          },
+          {
+            "speaker": "User",
+            "text": "Thank you very much!"
+          },
+          {
+            "speaker": "System",
+            "text": "Would you like me to book the taxi?"
+          },
+          {
+            "speaker": "User",
+            "text": "Yes I need the taxi to depart from the cherry hinton village and go to la raza. Leaving after 10:15. Please give me the contact number and car type."
+          },
+          {
+            "speaker": "System",
+            "text": "Okay, the taxi is booked. The contact number is 07862333057, the car will be a Blue Honda. Is there anything else I can help with?"
+          },
+          {
+            "speaker": "User",
+            "text": "No, that will be all, thank you. Have a nice day."
+          },
+          {
+            "speaker": "System",
+            "text": "Thank you. We are always here to help with your bookings."
+          }
+        ],
+        "user_revision": {
+            "speaker": "User",
+            "text": "Sorry, I should’ve mentioned this earlier—but I actually need the taxi to arrive at La Raza *before* 10:15, not leave after. Could you update the booking accordingly?"
+        },
+        "correct_revised_response": {
+            "speaker": "System",
+            "text": "Thanks for clarifying! To ensure arrival at La Raza before 10:15, I’ve rescheduled your pickup from Cherry Hinton Village Centre to 09:45. The car remains a Blue Honda, and the contact number is still 07862333057. Let me know if you'd like to adjust further!"
+          },
+          "wrong_revised_response": {
+            "speaker": "System",
+            "text": "Noted! Your taxi will still depart after 10:15 and arrive at La Raza shortly after. Let me know if anything changes."
+          },
+          "logical_shift": {
+            "original_logic": [
+              "User requests a taxi that departs after 10:15",
+              "System confirms booking with that time condition",
+              "Arrival time is after 10:15"
+            ],
+            "correct_revised_logic": [
+              "User changes requirement to arrive before 10:15",
+              "System infers departure must be earlier",
+              "Booking is rescheduled accordingly to meet new arrival constraint"
+            ],
+            "wrong_revised_logic": [
+              "System ignores shift in arrival vs. departure logic",
+              "Retains original 'depart after 10:15' logic despite updated goal",
+              "Creates inconsistency between user's stated need and action taken"
+            ]
+          }
+      },
+      {
+        "dialogue_id": 29,
+        "original_context": [
+          {
+            "speaker": "User",
+            "text": "i am new here. i need a place to stay with free wifi"
+          },
+          {
+            "speaker": "System",
+            "text": "Okay! What price range are you looking for?"
+          },
+          {
+            "speaker": "User",
+            "text": "cheaper the better free wifi too"
+          },
+          {
+            "speaker": "System",
+            "text": "I have 10 locations with free wifi in the cheap price range. Do you have a particular area in mind?"
+          },
+          {
+            "speaker": "User",
+            "text": "No particular area, whatever you suggest."
+          },
+          {
+            "speaker": "System",
+            "text": "Okay well I suggest the Alexander Bed and Breakfast in their center. Would you like me to make a booking for you?"
+          },
+          {
+            "speaker": "User",
+            "text": "Yes please book 2 nights for 5 people, starting on Saturday."
+          },
+          {
+            "speaker": "System",
+            "text": "I have booked the Alexander Bed and Breakfast for 2 nights starting on Saturday for 5 people. The reference number is UCIOWNWV . Anything else I can help you with?"
+          },
+          {
+            "speaker": "User",
+            "text": "That's it. Thank you, goodbye!"
+          },
+          {
+            "speaker": "System",
+            "text": "Have a great day!"
+          }
+        ],
+        "user_revision": {
+            "speaker": "User",
+            "text": "Actually, two of my friends dropped out, so now it’s only 3 people. Also, I realized I’d prefer to stay somewhere in the north if possible. Could you update the booking?"
+        },
+        "correct_revised_response": {
+            "speaker": "System",
+            "text": "No problem! I’ve updated the booking to reflect 3 guests instead of 5. Since Alexander B&B is in the city center, I found another option in the north: Carlton Guest House. It's in the same price range with free wifi. Your new booking is confirmed for 2 nights starting Saturday, reference: WMB93TYL. Let me know if you'd like the address!"
+          },
+          "wrong_revised_response": {
+            "speaker": "System",
+            "text": "Thanks for the update! Your booking for 5 people at Alexander Bed and Breakfast is still active. Since it's already confirmed, just let them know when you arrive that only 3 guests are staying."
+          },
+          "logical_shift": {
+            "original_logic": [
+              "User requests cheap accommodation with free wifi",
+              "No area preference → system recommends central location",
+              "Booking made for 5 people starting Saturday"
+            ],
+            "correct_revised_logic": [
+              "User reduces guest count to 3",
+              "Adds location constraint: prefers north area",
+              "System reevaluates and switches to new accommodation in north",
+              "New reference number generated for updated booking"
+            ],
+            "wrong_revised_logic": [
+              "System ignores both guest count change and new area preference",
+              "Retains original booking details and reference number",
+              "Delegates problem-solving to user instead of resolving proactively"
+            ]
+          }
+      },
+      {
+        "dialogue_id": 30,
+        "original_context": [
+          {
+            "speaker": "User",
+            "text": "I am looking for places to go in town centre. What are some options?"
+          },
+          {
+            "speaker": "System",
+            "text": "I have the Mumford Theatre at anglia ruskin enterprise, east road, or the fitzwilliam museum at trumpington street."
+          },
+          {
+            "speaker": "User",
+            "text": "What are the entrance fees for all those locations?"
+          },
+          {
+            "speaker": "System",
+            "text": "The entrance fee is free for the museum is free, and the theater fee is unknown."
+          },
+          {
+            "speaker": "User",
+            "text": "Okay, thanks for that information. I would like to book a train as well. I'm leaving Tuesday after 16:00 from Cambridge."
+          },
+          {
+            "speaker": "System",
+            "text": "Alright, where would you like to go?"
+          },
+          {
+            "speaker": "User",
+            "text": "I'd like to go from stansted airport to Cambridge."
+          },
+          {
+            "speaker": "System",
+            "text": "TR8372 leaves at 16:24. Are you interested?"
+          },
+          {
+            "speaker": "User",
+            "text": "Yes, I need to book that for 8 people. Please send the reference number."
+          },
+          {
+            "speaker": "System",
+            "text": "Booking was successful, the total fee is 80.8 GBP payable at the station . Reference number is : VHL6TYDF ."
+          },
+          {
+            "speaker": "User",
+            "text": "Thank you! Goodbye."
+          },
+          {
+            "speaker": "System",
+            "text": "You're welcome goodbye."
+          }
+        ],
+        "user_revision": {
+            "speaker": "User",
+            "text": "Quick change of plans—only 5 of us will be traveling now instead of 8. Can you update the train booking accordingly?"
+        },
+        "correct_revised_response": {
+            "speaker": "System",
+            "text": "Got it! I've adjusted your booking for 5 passengers instead of 8 on train TR8372. The new total is 50.50 GBP, still payable at the station. Updated reference number: ZKM81LDH. Let me know if anything else changes!"
+          },
+          "wrong_revised_response": {
+            "speaker": "System",
+            "text": "Thanks for the update. The booking for 8 passengers remains confirmed—feel free to tell the ticket agent if fewer people show up."
+          },
+          "logical_shift": {
+            "original_logic": [
+              "User wants to book a train from Stansted to Cambridge",
+              "Time = after 16:00 on Tuesday",
+              "Booking confirmed for 8 people with total fee and reference number"
+            ],
+            "correct_revised_logic": [
+              "User updates party size to 5",
+              "System recalculates cost and issues new reference",
+              "All other travel details remain unchanged"
+            ],
+            "wrong_revised_logic": [
+              "System ignores update in group size",
+              "Keeps outdated reference and cost info",
+              "Delegates fix to ticket agent, not handled by system"
+            ]
+          }
+      }
+
+]
